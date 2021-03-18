@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'typing-game';
+
+  title = 'Typing Game';
+  randomText = 'Test';
+  result = '';
+
+  getResult() {
+    this.result = 'You Win!'
+  }
 }
